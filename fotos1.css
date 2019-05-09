@@ -1,0 +1,290 @@
+@charset "UTF-8";
+@font-face {
+	font-family:'Great Vibes', cursive;
+	font-family: 'Wire One', sans-serif;
+	font-family: 'Stint Ultra Condensed', cursive;
+
+
+}
+ul#album-fotos {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;  
+}
+
+hgroup#letra{
+	font-family: 'Stint Ultra Condensed';
+	color: #b3b3b3;
+	font-size:25pt;
+	text-align: center; 
+}
+
+
+ul#album-fotos li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+	position: relative;
+	z-index: 1;
+}
+
+ul#album-fotos li span {
+	position: absolute;
+	bottom: 0;
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	padding: 5px;
+}
+
+ul#album-fotos li:hover {
+	z-index: 2;
+	-webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span {
+	opacity: 1;
+}
+
+ul#album-fotos li#foto01 {
+	background: url('../_galeria/nomes.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto01:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02 {
+	background: url('../_galeria/ju.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto02:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03 {
+	background: url('../_galeria/luz.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto03:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04 {
+	background: url('../_galeria/xiko.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto04:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05 {
+	background: url('../_galeria/caneta.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto05:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06 {
+	background: url('../_galeria/barro.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto06:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto07 {
+	background: url('../_galeria/elefante.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto07:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto08 {
+	background: url('../_galeria/jana.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto08:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-fotos li#foto09 {
+	background: url('../_galeria/tabua.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto09:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto10 {
+	background: url('../_galeria/refeitorio.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto10:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-fotos li#foto11 {
+	background: url('../_galeria/cre.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto11:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-fotos li#foto12 {
+	background: url('../_galeria/nize.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto12:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-fotos li#foto13 {
+	background: url('../_galeria/mandala.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto13:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-fotos li#foto14 {
+	background: url('../_galeria/amor.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto14:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-fotos li#foto15 {
+	background: url('../_galeria/cha.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto15:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto16 {
+	background: url('../_galeria/pac.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto16:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto17 {
+	background: url('../_galeria/trabalho.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto17:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto18 {
+	background: url('../_galeria/poa.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto18:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto19 {
+	background: url('../_galeria/porta.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto19:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto20 {
+	background: url('../_galeria/123.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff; 
+}
+
+ul#album-fotos li#foto20:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}

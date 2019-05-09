@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@font-face {
+	font-family:'Great Vibes', cursive;
+	font-family: 'Wire One', sans-serif;
+	font-family: 'Stint Ultra Condensed', cursive;
+	font-family: 'Tangerine', cursive;
+	font-family: 'Parisienne', cursive;
+	font-family: 'Allura', cursive;
+	font-family: 'Fredericka the Great', cursive;
+	font-family: 'Italianno', cursive;
+
+}
+
+ul#sobre {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 100px;
+	overflow: hidden;
+	list-style: none;  
+}
+hgroup#letra{
+	font-family: 'Italianno';
+	color: #b3b3b3;
+	font-size:20pt;
+	text-align: left; 
+}
+ul#sobre li {
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+	border: 5px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+	position: relative;
+	z-index: 1;
+}
+ul#sobre li span {
+	position: absolute;
+	bottom: 0;
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 10pt;
+	padding: 10px;
+}
+ul#sobre li:hover {
+	z-index: 2;
+	-webkit-transform: scale(1.5);
+}
+
+ul#sobre li:hover span {
+	opacity: 1;
+}
+
+ul#sobre li#ju {
+	background: url('../_galeria/juju.jpeg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 500px 500px;
+	background-color: #ffffff; 
+}
+ul#sobre li#ju:hover {
+	background-position: 0px 0px;
+	background-size: 400px 400px;
+}
+
+h2#linda{
+	font-family: "Tangerine";
+	font-size: 30pt;
+	top: -800px;
+	text-align: justify;
+}
+
+p#texto{
+	font-family: "Tangerine";
+	font-size: 25pt;
+	text-align: justify;
+	
+
+}
+section#corpo {
+	display: block;
+	width: 100%;
+	float: left;
+	border-right: 1px solid #ffffff; 
+	padding-right: 15px
+
+}  
+
+aside#lateral {
+	display: block;
+	width: 350px;
+	float: right;
+	background-color: #ffffff;
+	padding: 10px;
+	margin-top: 10px; 
+	
+}
